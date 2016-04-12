@@ -1,0 +1,129 @@
+Button {
+	-fx-text-fill: #FFFFFF;
+	-fx-font: 24 Montserrat;
+	-fx-background-radius: 60;
+	-fx-background-color: transparent;
+}
+
+ScrollPane{
+	-fx-background-color: #f2f2f2;
+}
+
+#tags {
+	-fx-font: 16 Montserrat;
+	-fx-fill: #000000;
+}
+
+Button:hover{
+	-fx-text-fill: #66c2ff;
+}
+
+#like {
+	-fx-background-image: url("../assets/like.png");
+	-fx-background-repeat: stretch;   
+    -fx-background-size: 30 30;
+    -fx-background-position: center center;
+    -fx-background-color: transparent;
+}
+
+#back{
+	-fx-background-image: url("../assets/back-white.png");
+	-fx-background-repeat: stretch;   
+    -fx-background-size: 130 70;
+    -fx-background-position: center center;
+    -fx-background-color: transparent;
+}
+
+#back:hover{
+	-fx-background-image: url("../assets/back-blue.png");
+}
+
+#forward{
+	-fx-background-image: url("../assets/forward-white.png");
+	-fx-background-repeat: stretch;   
+    -fx-background-size: 50 50;
+    -fx-background-position: center center;
+    -fx-background-color: transparent;
+}
+
+#forward:hover{
+	-fx-background-image: url("../assets/forward-blue.png");
+}
+
+#backward{
+	-fx-background-image: url("../assets/backward-white.png");
+	-fx-background-repeat: stretch;   
+    -fx-background-size: 50 50;
+    -fx-background-position: center center;
+    -fx-background-color: transparent;
+}
+
+#backward:hover{
+	-fx-background-image: url("../assets/backward-blue.png");
+}
+
+#delete{
+	-fx-background-image: url("../assets/trash-white.png");
+	-fx-background-repeat: stretch;   
+    -fx-background-size: 50 50;
+    -fx-background-position: center center;
+    -fx-background-color: transparent;
+}
+
+#delete:hover{
+	-fx-background-image: url("../assets/trash-blue.png");
+}
+
+
+AnchorPane{
+	-fx-background-color: #2980b9;
+}
+
+#albums{
+	-fx-background-color: #f2f2f2;
+}
+
+ImageView{
+	-fx-alignment: center;
+}
+
+.scroll-bar .increment-arrow,
+.scroll-bar .decrement-arrow
+{
+    -fx-shape: "";
+    -fx-padding:0;
+}
+
+.scroll-bar:horizontal {
+    -fx-opacity: 0;
+}
+
+
+.scroll-bar:vertical .thumb 
+{
+    -fx-background-color: #3498db;
+    -fx-background-insets: 2, 0, 0;
+    -fx-background-radius: 2em;
+}
+
+Text {
+	-fx-font: 16 Montserrat;
+	-fx-fill: #FFFFFF;
+}
+
+#date {
+	-fx-text-alignment: center;
+}
+
+#title{
+	-fx-text-alignment: center;
+	-fx-font: 24 Montserrat;
+	-fx-fill: #FFFFFF;
+	-fx-font-weight: bold;
+}
+
+TextField {
+	-fx-background-radius: 10;
+	-fx-text-box-border: white; 
+	-fx-focus-color: #008ED6;
+}

@@ -1,0 +1,27 @@
+AnchorPane {
+	-fx-background-color: #2980b9;
+}
+
+Text {
+	-fx-fill: WHITE;
+	-fx-alignment: center;
+	-fx-font: 22 helvetica;
+}
+
+Button {
+	-fx-text-fill: #FFFFFF;
+	-fx-font: 24 Montserrat;
+	-fx-background-radius: 60;
+	-fx-background-color: transparent;
+}
+
+Button:hover{
+	-fx-text-fill: #66c2ff;
+}
+
+CheckBox{
+	-fx-text-fill: #FFFFFF;
+	-fx-font: 14 helvetica;
+	-fx-background-radius: 60;
+	-fx-background-color: transparent;
+}

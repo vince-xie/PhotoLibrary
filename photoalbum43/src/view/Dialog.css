@@ -1,0 +1,21 @@
+Text {
+	-fx-fill: #008ED6;
+	-fx-font: 16 helvetica;
+}
+
+Button{
+	-fx-background-radius: 10;
+	-fx-background-color: #008ED6;
+	-fx-text-fill: WHITE;
+	-fx-alignment: center;
+	-fx-font: 14 helvetica;
+	-fx-font-weight: bold;
+}
+
+Button:hover{
+	-fx-background-color: #005580;
+}
+
+#name{
+	-fx-fill: #e67e22;
+}

@@ -1,0 +1,38 @@
+#loginPage{
+	-fx-background-image: url("../assets/test.jpeg");
+	-fx-background-repeat: stretch;   
+    -fx-background-size: 800 600;
+    -fx-background-position: center center;
+}
+
+#name {
+	-fx-fill: WHITE;
+	-fx-alignment: center;
+	-fx-font: 64 helvetica;
+}
+
+#userwrong, #passwrong{
+	-fx-fill: #e67e22;
+	-fx-font: 16 helvetica;
+	-fx-font-weight: bold;
+	-fx-opacity: 0;
+}
+
+Button{
+	-fx-background-radius: 10;
+	-fx-background-color: #008ED6;
+	-fx-text-fill: WHITE;
+	-fx-alignment: center;
+	-fx-font: 16 helvetica;
+	-fx-font-weight: bold;
+}
+
+Button:hover{
+	-fx-background-color: #005580;
+}
+
+TextField , PasswordField {
+	-fx-background-radius: 10;
+	-fx-text-box-border: white; 
+	-fx-focus-color: #008ED6;
+}
